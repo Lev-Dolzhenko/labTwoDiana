@@ -1,0 +1,52 @@
+.popup--log {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+
+  width: 500px;
+  height: 250px;
+
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+
+  input {
+    border: 1px solid black;
+    padding: 10px 5px;
+  }
+
+  h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  button {
+    border: 1px solid black;
+    padding: 10px 5px;
+    background: black;
+
+    color: white;
+  }
+}
+
+.popup--log__button--close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+}

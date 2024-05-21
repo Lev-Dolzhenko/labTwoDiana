@@ -1,0 +1,21 @@
+.footer {
+  padding: 100px 0;
+}
+
+.footer__columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.footer__item {
+}
+
+.footer__item_title {
+    font-weight: 600;
+}
